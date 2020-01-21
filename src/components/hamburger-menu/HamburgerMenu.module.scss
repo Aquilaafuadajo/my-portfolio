@@ -1,0 +1,99 @@
+// body {
+//   overflow: hidden;
+// }
+
+@mixin hamburger-line {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+}
+
+.hamburger,
+.navigation {
+  transition: transform 0.3s 0.1s ease-in-out;
+}
+
+.hamburger {
+  position: absolute;
+  top: 5%;
+  left: 0.5%;
+  display: inline-block;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  // float: right;
+
+  // &active {
+  //   transform: translateX(-250px);
+  // }
+
+  &__box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    
+    left: 5%;
+  }
+
+  &__inner {
+    @include hamburger-line;
+    // top: 10%;
+    // transform: translateY(-50%);
+    transition: background-color 0.3s 0.1s ease-in-out;
+  }
+
+  &__inner::before,
+  &__inner::after {
+    @include hamburger-line;
+    content: "";
+    transition: transform 0.3s 0.1s ease-in-out;
+  }
+
+  &__inner::before {
+    top: -10px;
+  }
+
+  &__inner::after {
+    top: 10px;
+  }
+
+  &active &__inner {
+    transform: translateX(200px);
+    background-color: transparent;
+  }
+
+  &active &__inner::before {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  &active &__inner::after {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+}
+
+.navigation {
+  width: 200px;
+  background-color: rgb(83, 143, 165);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-250px);
+
+  &active {
+    transform: translateX(0);
+  }
+
+  &__list {
+    list-style: none;
+    margin-top: 50px;
+  }
+
+  &__item {
+    margin: 20px;
+    padding: 4px;
+  }
+}

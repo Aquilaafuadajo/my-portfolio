@@ -1,0 +1,65 @@
+.menu {
+  width: 100%;
+  display: grid;
+
+  .mainnav{
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+
+    .links {
+      font-size: 22px;
+      text-decoration: none;
+
+      &:hover {
+        .svg {
+          opacity: 0;
+        }
+        span{
+          opacity: 1;
+        }
+      }
+
+      span {
+        opacity: 0;
+        color: #4c95af;
+        position: relative;
+        top: -25px;
+        font-size: 14px;
+        transition: all .5s;
+      }
+
+      .svg {
+        width: 30px;
+        height: 30px;
+        fill: #494949;
+        transition: all .5s;
+      }
+      .svg:hover {
+        fill: rgb(83, 143, 165);
+      }
+    }
+  }
+
+  .social {
+    align-self: flex-end;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    a {
+      padding: 5px;
+      margin: 0;
+      display: block;
+    }
+
+    .svg {
+      width: 17px;
+      height: 17px;
+      fill: #494949;
+    }
+  }
+
+  .svg:hover {
+    fill: rgb(83, 143, 165);
+  }
+}
