@@ -1,5 +1,6 @@
 .menu {
-  width: 100%;
+  width: 60px;
+  background: #181818;
   display: grid;
 
   .mainnav{
@@ -22,7 +23,7 @@
 
       span {
         opacity: 0;
-        color: #4c95af;
+        color: #08FDD8;
         position: relative;
         top: -25px;
         font-size: 14px;
@@ -36,7 +37,7 @@
         transition: all .5s;
       }
       .svg:hover {
-        fill: rgb(83, 143, 165);
+        fill: #08FDD8;
       }
     }
   }
@@ -60,6 +61,12 @@
   }
 
   .svg:hover {
-    fill: rgb(83, 143, 165);
+    fill: #08FDD8;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+      display: none;
   }
 }

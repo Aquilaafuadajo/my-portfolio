@@ -9,13 +9,16 @@ const Menu = ({ className }) => (
         <a href="/">HOME</a>{" "}
       </li>
       <li className={styles.navigation__item}>
-        <a href="/about">DEF</a>
+        <a href="/about">ABOUT</a>
       </li>
       <li className={styles.navigation__item}>
-        <a href="/contact">GHI</a>
+        <a href="/skill">SKILLS</a>
       </li>
       <li className={styles.navigation__item}>
-        <a href="/skill">JKL</a>
+        <a href="/mywork">WORK</a>
+      </li>
+      <li className={styles.navigation__item}>
+        <a href="/contact">CONTACT</a>
       </li>
     </ul>
   </div>

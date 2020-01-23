@@ -1,20 +1,23 @@
 .homepage {
   opacity: 1;
   animation:preloader 3s linear;
+  display: flex;
 
   .person {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    .png {
-      animation:h 8s linear infinite;
+    img {
+      width: 70%;
+      animation:h 5s linear infinite;
     }
   }
 
   .intro {
     display: grid;
-    padding-left: 15%;
+    width: 50%;
     
     
     h1 {
@@ -29,7 +32,7 @@
         animation-fill-mode: both;
         animation-iteration-count: 1;
 
-        &:nth-of-type(6), &:nth-of-type(16){
+        &:nth-of-type(6), &:nth-of-type(18){
           &::after {
             content: '-';
             visibility: hidden;
@@ -38,7 +41,7 @@
 
         &:hover{
           animation-name: rubberBand;
-          color: #4c95af;
+          color: #08FDD8;
         }
       }
     }
@@ -52,9 +55,49 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .homepage{
+    display: grid;
+    .person {
+      width: 100%;
+      padding-top: 70px;
+      img {
+        width: 100%;
+        animation: none;
+      }
+    }
+    .intro{
+      width: 100%;
+      h1 {
+        font-size: 30px;
+    }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .homepage{
+    display: grid;
+    .person {
+      width: 100%;
+      padding-top: 70px;
+      img {
+        width: 100%;
+        animation: none;
+      }
+    }
+    .intro{
+      width: 100%;
+    //   h1 {
+    //     font-size: 30px;
+    // }
+    }
+  }
+}
+
 @keyframes h{
   0%{transform:translate(0, 0);}
-  50%{transform:translate(50px, 0px);}
+  50%{transform:translate(0px, 30px);}
   100%{transform:translate(0, 0);}
 }
 

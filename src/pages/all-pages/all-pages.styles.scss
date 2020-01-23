@@ -1,0 +1,183 @@
+
+.about {
+  width: calc(100% - 10px);
+  display: grid;
+  grid-template-columns: (70% 30%);
+  grid-gap: 10px;
+  box-sizing: border-box;
+
+  h1 {
+    font-size: 50px;
+    color: #08FDD8;
+  } 
+  .me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+}
+
+.my-work {
+  width: calc(100%-20px);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+  grid-gap: 20px;
+  .card > p {
+    color: black;
+    margin: 0;
+    padding: 0;
+  
+    &:hover {
+      color: red;
+      cursor: pointer;
+    }
+  }
+  
+  .card > img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+details summary {
+  cursor: pointer;
+  outline: none !important;
+}
+
+details[open] > summary::before {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  cursor: default;
+  content: " ";
+  z-index: 99;
+  background: rgba(27,31,35,0.5);
+}
+
+details > div {
+  display: grid;
+  padding: 10px;
+  overflow: scroll;
+  width: 80%;
+  height: auto;
+  max-height: 90%;
+
+  margin: 5vh auto;
+  position: fixed;
+  top: 0;
+  right: 10%;
+  left: 10%;
+  
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+
+  animation-name: fade-in;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  z-index: 999;
+
+  &> img {
+    width: 100%;
+    
+  }
+  p {
+    color: black;
+  }
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.contact {
+  width: 100%;
+  display: block;
+  // animation-duration: .8s;
+  // animation-fill-mode: both;
+  // animation-iteration-count: 1;
+  // animation-name: rubberBand;
+  .skill-description{
+    width: 60%;
+  }
+  h1 {
+    font-size: 50px;
+    color: #08FDD8;
+  } 
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about{
+    display: flex;
+    .me {
+      
+      img{
+        width: 100%;
+        height: 50%;
+      }
+    }
+  }
+  .contact {
+    .skill-description{
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about{
+    display: flex;
+    .me {
+      display: none;
+      img{
+        width: 100%;
+        height: 20%;
+      }
+  }
+  }
+}
+

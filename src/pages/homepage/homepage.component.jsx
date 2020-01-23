@@ -1,12 +1,13 @@
 import React from 'react';
-import {ReactComponent as Person} from '../../assets/person.svg';
+
+import Programmer from '../../assets/web-dev.png';
 import {Link} from 'react-router-dom';
 
 import './homepage.styles.scss';
 
 const Homepage = () => {
   return ( 
-      <div className={`homepage page`}>
+      <div className='homepage'>
         <div className='intro'>
           <h1>
             <span>H</span>
@@ -17,12 +18,14 @@ const Homepage = () => {
             <span>'</span>
             <span>m</span>
             
-            <span>A</span>
-            <span>q</span>
-            <span>u</span>
-            <span>i</span>
-            <span>l</span>
+            <span>E</span>
+            <span>m</span>
+            <span>m</span>
             <span>a</span>
+            <span>n</span>
+            <span>u</span>
+            <span>e</span>
+            <span>l</span>
             <span>,</span>
             <br/>
             <span>W</span>
@@ -46,7 +49,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className='person'>
-          <Person className='png'/>
+          <img src={Programmer} alt='programmer'/>
         </div>
       </div>
     );
