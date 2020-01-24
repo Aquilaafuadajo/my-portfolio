@@ -23,12 +23,11 @@ const params={
       }
     }
   },
-  interactivity: {
-    events: {
-        onhover: {
-            enable: true,
-            mode: "repulse"
-        }
+  number: {
+    value: 30,
+    density: {
+        enable: true,
+        value_area: 800    
     }
 }
 }
