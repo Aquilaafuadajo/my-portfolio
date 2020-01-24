@@ -9,7 +9,7 @@ import {ReactComponent as Twitter} from '../../assets/twitter.svg';
 import {ReactComponent as Linkedin} from '../../assets/linkedin.svg';
 import {ReactComponent as Github} from '../../assets/github.svg';
 
-import './nav-bar.styles.scss';
+import './nav-bar.styles.scss'; 
 
 const Navbar = () => {
   return ( 

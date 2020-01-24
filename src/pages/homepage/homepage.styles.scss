@@ -57,34 +57,17 @@
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
 /* Portrait */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 250px) 
+  and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: portrait){ 
     .homepage {
       .intro{
         margin-top: 10%;
       }
     }
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -112,7 +95,8 @@
   .homepage{
     display: grid;
     .person {
-      width: 100%;
+      width: 70%;
+      margin: auto;
       padding-top: 70px; 
       img {
         width: 100%;

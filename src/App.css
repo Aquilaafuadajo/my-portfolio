@@ -63,19 +63,29 @@ button:hover {
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-/* Portrait and Landscape */
 
 /* Portrait */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 250px) 
+  and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: portrait){ 
     .content {
       width: 100%;
       padding: 10% 20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* @keyframes preloader{

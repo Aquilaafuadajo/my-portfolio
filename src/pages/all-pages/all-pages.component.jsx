@@ -3,10 +3,10 @@ import React from 'react';
 import './all-pages.styles.scss';
 
 import MyPicture from '../../assets/aquila.jpg';
-import Portfolio from '../../assets/portfolio.png';
-import ArticleViewer from '../../assets/article-viewer.png';
-import Ecommerce from '../../assets/ecommerce.png';
-import FaceRecognition from '../../assets/face-recognition.png';
+import Portfolio from '../../assets/portfolio.jpeg';
+import ArticleViewer from '../../assets/article-viewer.jpeg';
+import Ecommerce from '../../assets/ecommerce.jpeg';
+import FaceRecognition from '../../assets/face-recognition.jpeg';
 
 export const About = () => {
   return ( 
@@ -17,6 +17,7 @@ export const About = () => {
         <p>My childhood curiosity led to my educational focus in engineering and technology, and over the years I have gained experience in building responsive web applications with JavaScript/react.js. <br/>
         My programming experience has been both challenging and fun working on programming projects with the added thrill of being able to communicate directly with my computer.</p>
         <p>PS: When I'm not coding, I love to watch movie series.</p>
+        <code className='code'>ROTATE SCREEN TO SEE MY PICTURE :) </code>
       </div>
       <div className='me'>
         <img src={MyPicture} alt='Me' />
