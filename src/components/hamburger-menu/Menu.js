@@ -1,24 +1,25 @@
-//Core
 import React from "react";
+import {Link} from 'react-router-dom';
+
 import styles from "./HamburgerMenu.module.scss";
 
-const Menu = ({ className }) => (
+const Menu = ({ className, handleLinkClick }) => (
   <div className={className}>
-    <ul className={styles.navigation__list}>
+    <ul className={styles.navigation__list}> 
       <li className={styles.navigation__item}>
-        <a href="/">HOME</a>{" "}
+        <Link to="/" onClick={handleLinkClick}>HOME</Link>{" "}
       </li>
       <li className={styles.navigation__item}>
-        <a href="/about">ABOUT</a>
+        <Link to="/about">ABOUT</Link>
       </li>
       <li className={styles.navigation__item}>
-        <a href="/skill">SKILLS</a>
+        <Link to="/skill">SKILL</Link>
       </li>
       <li className={styles.navigation__item}>
-        <a href="/mywork">WORK</a>
+        <Link to="/mywork">WORK</Link>
       </li>
       <li className={styles.navigation__item}>
-        <a href="/contact">CONTACT</a>
+        <Link to="/contact">CONTACT</Link>
       </li>
     </ul>
   </div>

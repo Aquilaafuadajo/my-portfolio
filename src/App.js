@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <Particles className='particles' params={params} />
-      <HamburgerMenu className='hide'/>
+      <HamburgerMenu />
       <Navbar />
       <div className='content'>
         <Switch>

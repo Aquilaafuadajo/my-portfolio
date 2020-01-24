@@ -32,12 +32,12 @@ export const Contact = () => {
         <h1>CONTACT</h1>
         <h3>Woah! Let's do business</h3>
         <p>Let's talk over the mail:</p><a href='mailto:aquilaafuadajo@gmail.com'><button>mail me</button></a><br/>
-        <a href='https://drive.google.com/open?id=1cMmfXq466hCG6Amab8rlyed2dVl9VS_J'><button>my resume</button></a>
+        <a href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'><button>my resume</button></a>
       </div>
     );
 }
 
-export const MyWork = () => {
+export const MyWork = () => { 
   return ( 
       <div className='my-work'>
         <details>
@@ -47,17 +47,23 @@ export const MyWork = () => {
           </summary>
           <div>
             <img src={Ecommerce} alt=''/>
-            <p>Description: </p>
+            <p>Description: Crown Clothing is an ecommerce website built with react and redux. This 
+            website uses firebase for authentication and storage and stripe for payments. <a href='https://github.com/Aquilaafuadajo/ecommerce-shop'>View project on github</a>
+            </p>
           </div>
         </details>
         <details>
           <summary className='card'>
             <img src={ArticleViewer} alt=''/>
-            <h3>ARTICLE VIEWER</h3>
+            <h3>STAY UPDATED</h3>
           </summary>
           <div>
             <img src={ArticleViewer} alt=''/>
-            <p>Description:</p>
+            <p>Description: Stay Updated is a web app that keeps users updated with the latest articles that 
+            has just been published. It searches for articles from over 30,000 news sources 
+            and blogs. It allows users to sign up for daily reminder of every article published.
+            It's built with React/Redux and Firebase for storage and authentication
+            </p>
           </div>
         </details>
         <details>
@@ -80,7 +86,7 @@ export const MyWork = () => {
           </summary>
           <div>
             <img src={Portfolio} alt=''/>
-            <p>description</p>
+            <p>Description: As you can see, this is my personal portfolio built with react and pure sass/css</p>
           </div>
         </details>
         
@@ -96,7 +102,7 @@ export const MySkill = () => {
           <p>The main area of my expertise is front end development (client side of the web).</p>
           <p>HTML, CSS (SASS), JavaScript, NOSql,  building small and medium web apps with React/Redux, animations, and coding interactive layouts.</p>
           <p>I also have full-stack experience with Node.js, Postgresql</p>
-          <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/open?id=1cMmfXq466hCG6Amab8rlyed2dVl9VS_J'>resume</a> for more details on my experience</p>
+          <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'>resume</a> for more details on my experience</p>
         </div>
       </div>
     );

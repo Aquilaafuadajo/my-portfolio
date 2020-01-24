@@ -17,6 +17,11 @@ class HamburgerMenu extends React.Component {
     this.setState({
       isOpen: !this.state.isOpen
     });
+  }
+  handleLinkClick = () => {
+    this.setState({
+      isOpen: false
+    })
   };
 
   render() {
@@ -31,6 +36,7 @@ class HamburgerMenu extends React.Component {
           }
         />
         <Menu
+          handleLinkClick={this.handleLinkClick}
           className={
             this.state.isOpen
               ? `${styles.navigation} ${styles.navigationactive}`

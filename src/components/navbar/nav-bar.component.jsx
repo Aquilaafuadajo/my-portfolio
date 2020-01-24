@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom'; 
 import {ReactComponent as About} from '../../assets/about.svg';
 import {ReactComponent as Home} from '../../assets/home.svg';
 import {ReactComponent as Skill} from '../../assets/skill.svg';
