@@ -10,16 +10,16 @@ const Menu = ({ className, handleLinkClick }) => (
         <Link to="/" onClick={handleLinkClick}>HOME</Link>{" "}
       </li>
       <li className={styles.navigation__item}>
-        <Link to="/about">ABOUT</Link>
+        <Link to="/about" onClick={handleLinkClick}>ABOUT</Link>
       </li>
       <li className={styles.navigation__item}>
-        <Link to="/skill">SKILL</Link>
+        <Link to="/skill" onClick={handleLinkClick}>SKILL</Link>
       </li>
       <li className={styles.navigation__item}>
-        <Link to="/mywork">WORK</Link>
+        <Link to="/mywork" onClick={handleLinkClick}>WORK</Link>
       </li>
       <li className={styles.navigation__item}>
-        <Link to="/contact">CONTACT</Link>
+        <Link to="/contact" onClick={handleLinkClick}>CONTACT</Link>
       </li>
     </ul>
   </div>
