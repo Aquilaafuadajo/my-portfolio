@@ -63,7 +63,7 @@ export const MyWork = () => {
             <p>Description: Stay Updated is a web app that keeps users updated with the latest articles that 
             has just been published. It searches for articles from over 30,000 news sources 
             and blogs. It allows users to sign up for daily reminder of every article published.
-            It's built with React/Redux and Firebase for storage and authentication
+            It's built with React/Redux and Firebase for storage and authentication <a href='https://github.com/Aquilaafuadajo/stayupdated'>View project on github</a>
             </p>
           </div>
         </details>
