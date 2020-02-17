@@ -113,26 +113,43 @@ details summary::-webkit-details-marker {
 }
 
 .contact {
+  height: 100%;
   width: 100%;
-  display: block;
-  // animation-duration: .8s;
-  // animation-fill-mode: both;
-  // animation-iteration-count: 1;
-  // animation-name: rubberBand;
-  .skill-description{
-    width: 60%;
-  }
+  margin: 0;
+  display: grid;
   h1 {
     font-size: 50px;
     color: #08FDD8;
   } 
+
+  .upper {
+    display: block;
+  }
+
+  .social {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    a {
+      padding: 8px;
+      margin: 0;
+      display: inline-block;
+    }
+
+    .svg {
+      width: 20px;
+      height: 20px;
+      fill: #08FDD8;
+    }
+  }
 }
 
 /* ----------- mobile phones ----------- */
 
 /* Portrait */
 @media only screen 
-  and (min-device-width: 250px) 
+  // and (min-device-width: 250px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait){ 

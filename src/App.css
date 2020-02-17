@@ -66,13 +66,12 @@ button:hover {
 
 /* Portrait */
 @media only screen 
-  and (min-device-width: 250px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait){ 
     .content {
       width: 100%;
-      padding: 10% 20px;
+      padding: 10% 20px 0 20px; 
     }
 }
 

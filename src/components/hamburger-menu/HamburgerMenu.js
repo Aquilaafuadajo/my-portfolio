@@ -13,7 +13,6 @@ class HamburgerMenu extends React.Component {
   }; 
 
   handleClick = () => {
-    console.log("Abc");
     this.setState({
       isOpen: !this.state.isOpen
     });
@@ -26,7 +25,8 @@ class HamburgerMenu extends React.Component {
 
   render() {
     return (
-      <>
+      <div>
+        <div className={this.state.isOpen? `${styles.overlay}` : styles}></div>
         <Hamburger
           onClick={this.handleClick}
           className={
@@ -43,7 +43,7 @@ class HamburgerMenu extends React.Component {
               : styles.navigation
           }
         />
-      </>
+      </div>
     );
   }
 }

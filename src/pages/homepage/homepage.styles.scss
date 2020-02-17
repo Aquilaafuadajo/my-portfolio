@@ -59,7 +59,7 @@
 
 /* Portrait */
 @media only screen 
-  and (min-device-width: 250px) 
+  // and (min-device-width: 250px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait){ 
@@ -68,6 +68,14 @@
         margin-top: 10%;
       }
     }
+}
+
+@media only screen and (max-width: 300px) {
+  .intro {
+    h1{
+      font-size: 20px !important;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {

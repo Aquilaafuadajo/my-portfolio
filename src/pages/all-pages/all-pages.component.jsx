@@ -8,6 +8,10 @@ import ArticleViewer from '../../assets/article-viewer.jpeg';
 import Ecommerce from '../../assets/ecommerce.jpeg';
 import FaceRecognition from '../../assets/face-recognition.jpeg';
 
+import {ReactComponent as Twitter} from '../../assets/twitter.svg';
+import {ReactComponent as Linkedin} from '../../assets/linkedin.svg';
+import {ReactComponent as Github} from '../../assets/github.svg';
+
 export const About = () => {
   return ( 
     <div className='about'>
@@ -30,10 +34,17 @@ export const About = () => {
 export const Contact = () => {
   return ( 
       <div className='contact'>
-        <h1>CONTACT</h1>
-        <h3>Woah! Let's do business</h3>
-        <p>Let's talk over the mail:</p><a href='mailto:aquilaafuadajo@gmail.com'><button>mail me</button></a><br/>
-        <a href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'><button>my resume</button></a>
+        <div className='upper'>
+          <h1>CONTACT</h1>
+          <h3>Woah! Let's do business</h3>
+          <p>Let's talk over the mail:</p><a href='mailto:aquilaafuadajo@gmail.com'><button>mail me</button></a><br/>
+          <a href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'><button>my resume</button></a>
+        </div>
+        <div className='social'>
+          <a href='https://twitter.com/afuadajo'><Twitter className='svg'/></a>
+          <a href='https://www.linkedin.com/in/emmanuel-afuadajo-97121b185/'><Linkedin className='svg'/></a>
+          <a href='https://github.com/aquilaafuadajo/'><Github className='svg'/></a>
+        </div>
       </div>
     );
 }
