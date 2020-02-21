@@ -42,7 +42,7 @@ export const Contact = () => {
           <a href='https://drive.google.com/open?id=1cMmfXq466hCG6Amab8rlyed2dVl9VS_J'><button>my resume</button></a>
         </div>
         <div className='social'>
-          <a href='https://twitter.com/afuadajo'><Twitter className='svg'/></a>
+          <a href='https://twitter.com/_developing_dev'><Twitter className='svg'/></a>
           <a href='https://www.linkedin.com/in/emmanuel-afuadajo-97121b185/'><Linkedin className='svg'/></a>
           <a href='https://github.com/aquilaafuadajo/'><Github className='svg'/></a>
         </div>
@@ -125,7 +125,7 @@ export const MySkill = () => {
           <p>My area of my specialization is frontend development (client side of the web).</p>
           <p>HTML, CSS (SASS), Javascript,  building small and medium web apps with React/Redux, animations, and coding interactive layouts.</p>
           <p>I also have backend experience using Node.js, PostgreSQL,  NOSQL</p>
-          <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'>resume</a> for more details on my experience</p>
+          <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/open?id=1cMmfXq466hCG6Amab8rlyed2dVl9VS_J'>resume</a> for more details on my experience</p>
         </div>
       </div>
     );
