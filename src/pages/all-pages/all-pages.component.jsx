@@ -5,7 +5,8 @@ import './all-pages.styles.scss';
 import MyPicture from '../../assets/aquila.jpg';
 import Portfolio from '../../assets/portfolio.jpeg';
 import ArticleViewer from '../../assets/article-viewer.jpeg';
-import Ecommerce from '../../assets/ecommerce.jpeg';
+import Ecommerce from '../../assets/crown-wears.jpeg';
+import ToDo from '../../assets/to-do.jpeg';
 import FaceRecognition from '../../assets/face-recognition.jpeg';
 
 import {ReactComponent as Twitter} from '../../assets/twitter.svg';
@@ -38,7 +39,7 @@ export const Contact = () => {
           <h1>CONTACT</h1>
           <h3>Woah! Let's do business</h3>
           <p>Let's talk over the mail:</p><a href='mailto:aquilaafuadajo@gmail.com'><button>mail me</button></a><br/>
-          <a href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'><button>my resume</button></a>
+          <a href='https://drive.google.com/open?id=1cMmfXq466hCG6Amab8rlyed2dVl9VS_J'><button>my resume</button></a>
         </div>
         <div className='social'>
           <a href='https://twitter.com/afuadajo'><Twitter className='svg'/></a>
@@ -59,8 +60,8 @@ export const MyWork = () => {
           </summary>
           <div>
             <img src={Ecommerce} alt=''/>
-            <p>Description: Crown Clothing is an ecommerce website built with react and redux. This 
-            website uses firebase for authentication and storage and stripe for payments. <a href='https://github.com/Aquilaafuadajo/ecommerce-shop'>View project on github</a>
+            <p>Description: Crown Wears is an online clothing ecommerce website built with react and redux. This 
+            project uses firebase for authentication and storage and stripe for payments. <a href='https://crown-wears.herokuapp.com'>View project</a> 
             </p>
           </div>
         </details>
@@ -99,6 +100,16 @@ export const MyWork = () => {
           <div>
             <img src={Portfolio} alt=''/>
             <p>Description: As you can see, this is my personal portfolio built with react and pure sass/css</p>
+          </div>
+        </details>
+        <details>
+          <summary className='card'>
+            <img src={ToDo} alt=''/>
+            <h3>To-Do App</h3>
+          </summary>
+          <div>
+            <img src={ToDo} alt=''/>
+            <p>Description: This is a to-do app made with pure html, css and vanilla Javascript <a href='https://aquilaafuadajo.github.io/My-To-Do/'>View project</a></p>
           </div>
         </details>
         
