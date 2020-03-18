@@ -39,7 +39,7 @@ export const Contact = () => {
           <h1>CONTACT</h1>
           <h3>Woah! Let's do business</h3>
           <p>Let's talk over the mail:</p><a href='mailto:aquilaafuadajo@gmail.com'><button>mail me</button></a><br/>
-          <a href='https://drive.google.com/open?id=1cMmfXq466hCG6Amab8rlyed2dVl9VS_J'><button>my resume</button></a>
+          <a href='https://drive.google.com/open?id=10Hgt_qm5Pew_ICMHEcZL8vSMdxVYC7pT'><button>my resume</button></a>
         </div>
         <div className='social'>
           <a href='https://twitter.com/_developing_dev'><Twitter className='svg'/></a>
@@ -125,7 +125,7 @@ export const MySkill = () => {
           <p>My area of my specialization is frontend development (client side of the web).</p>
           <p>HTML, CSS (SASS), Javascript,  building small and medium web apps with React/Redux, animations, and coding interactive layouts.</p>
           <p>I also have backend experience using Node.js, PostgreSQL,  NOSQL</p>
-          <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/open?id=1cMmfXq466hCG6Amab8rlyed2dVl9VS_J'>resume</a> for more details on my experience</p>
+          <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/open?id=10Hgt_qm5Pew_ICMHEcZL8vSMdxVYC7pT'>resume</a> for more details on my experience</p>
         </div>
       </div>
     );
