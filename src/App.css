@@ -53,6 +53,7 @@ button:hover {
   min-height: 100vh;
   display: flex;
   color: beige;
+  position: relative;
 }
 
 .content {

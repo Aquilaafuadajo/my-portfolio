@@ -9,6 +9,8 @@ import Homepage from './pages/homepage/homepage.component';
 
 import Navbar from './components/navbar/nav-bar.component';
 import HamburgerMenu from './components/hamburger-menu/HamburgerMenu';
+import Hamburger from './components/testbug/hamburger.component';
+
 
 import './App.css';
 
@@ -24,19 +26,20 @@ const params={
     }
   },
   number: {
-    value: 30,
+    value: 10,
     density: {
         enable: true,
-        value_area: 800   
+        value_area: 200   
     }
-}
+  }
 }
 
 function App() {
   return (
     <div className="App">
       <Particles className='particles' params={params} />
-      <HamburgerMenu />
+      <Hamburger/>
+      
       <Navbar />
       <div className='content'>
         <Switch>
