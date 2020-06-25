@@ -18,5 +18,5 @@ export default function Hamburger() {
         <Link className="nav-item" to="/contact">CONTACT</Link>
       </nav>
     </div>
-  )
+  ) 
 }
