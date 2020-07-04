@@ -20,6 +20,12 @@ a {
   
 }
 
+.hamburger-position {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
 .particles {
   position: fixed;
   top: 0;

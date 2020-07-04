@@ -9,13 +9,11 @@ import Homepage from './pages/homepage/homepage.component';
 
 import Navbar from './components/navbar/nav-bar.component';
 import HamburgerMenu from './components/hamburger-menu/HamburgerMenu';
-import Hamburger from './components/testbug/hamburger.component';
 
 
 import './App.css';
 
-
-const params={
+const particlesOptions = {
   particles: {
     line_linked: {
       shadow: {
@@ -23,13 +21,13 @@ const params={
         color: "#08FDD8",
         blur: 5
       }
-    }
-  },
-  number: {
-    value: 10,
-    density: {
+    },
+    number: {
+      value: 30,
+      density: {
         enable: true,
-        value_area: 200   
+        value_area: 800
+      }
     }
   }
 }
@@ -37,8 +35,8 @@ const params={
 function App() {
   return (
     <div className="App">
-      <Particles className='particles' params={params} />
-      <Hamburger/>
+      <Particles className='particles' params={particlesOptions} />
+      <HamburgerMenu className='hamburger-position'/>
       
       <Navbar />
       <div className='content'>

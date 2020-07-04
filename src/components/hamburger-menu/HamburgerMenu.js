@@ -25,7 +25,7 @@ class HamburgerMenu extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='position'>
         <div className={this.state.isOpen? `${styles.overlay}` : styles}></div>
         <Hamburger
           onClick={this.handleClick}
