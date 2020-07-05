@@ -2,6 +2,9 @@
   width: 60px;
   background: #181818;
   display: grid;
+  position: fixed;
+  top: 0;
+  bottom: 0;
 
   .mainnav{
     display: block;
