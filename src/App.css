@@ -9,15 +9,25 @@ html {
 }
 
 body {
-  font-family: 'Courier Prime', monospace;
+  font-family: 'Roboto Condensed', sans-serif;
+  /* font-family: "Open Sans",sans-serif; */
   margin: 0;
   background: #1D1D1D;
 }
 a {
   font-weight: bold;
   text-decoration: none;
-  color: #08FDD8;
+  color: #06a18a;
   
+}
+
+p {
+  letter-spacing: 1px;
+  font-family: "Open Sans",sans-serif;
+}
+
+button:active {
+  outline: none;
 }
 
 .hamburger-position {
@@ -68,22 +78,29 @@ button:hover {
   height: auto;
   padding-top: 10%;
   padding-left: 50px;
+  padding-right: 50px;
   
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait */
-@media only screen 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait){ 
+
+@media only screen and (max-width: 1024px) { 
     .content {
-      width: 100%;
-      padding: 10% 20px 0 20px; 
+      padding-left: 0;
+      padding-right: 50px;
     }
 }
 
+@media only screen and (max-width: 720px) {
+  .content {
+    width: 100%;
+    padding-top: 50px; 
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 
 
 
