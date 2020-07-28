@@ -47,7 +47,7 @@ export const Contact = () => {
         <div className='upper'>
           <h1>CONTACT</h1>
           <h3>Woah! Let's do business</h3>
-          <p>Let's talk over the mail:</p><a target='_blank noopener noreferrer' href='mailto:aquilaafuadajo@gmail.com'><button>mail me</button></a><br/>
+          <p>Talk to me over the mail:</p><a target='_blank noopener noreferrer' href='mailto:aquilaafuadajo@gmail.com'><button>mail me</button></a><br/>
           <a target='_blank noopener noreferrer' href='https://drive.google.com/open?id=10Hgt_qm5Pew_ICMHEcZL8vSMdxVYC7pT'><button>my resume</button></a>
         </div>
         <div className='social'>
