@@ -114,7 +114,7 @@ export const MyWork = () => {
       'image-src': Portfolio,
       'header-text': 'MY PERSONAL PORTFOLIO',
       'project-description': 'As you can see, this is my personal portfolio built with react and pure sass/css',
-      'live-link': 'https://devquils.herokuapp.com',
+      'live-link': '#',
       'github-link': 'https://github.com/Aquilaafuadajo/my-portfolio'
     },
     {
