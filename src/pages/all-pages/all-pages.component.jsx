@@ -9,6 +9,9 @@ import Ecommerce from '../../assets/ecommerce.jpeg';
 import ToDo from '../../assets/todo.png';
 import FaceRecognition from '../../assets/face-recognition.jpeg';
 import Quiz from '../../assets/quiz.jpeg';
+import Algorithmist from '../../assets/algorithmist.png';
+import Alpha from '../../assets/alpha.jpeg';
+import Danadams from '../../assets/danadams.png';
 import Sleek from '../../assets/sleek.jpeg';
 import Piggyvest from '../../assets/piggyvest.jpeg';
 import Food from '../../assets/food.jpeg';
@@ -23,10 +26,11 @@ export const About = () => {
     <div className='about'>
       <div className='write-up'>
         <h1>About Me</h1>
-        <p>I'm a passionate Front End developer, a lover of JavaScript with hands-on experience in efficiently coding web applications using modern HTML, CSS, and JavaScript</p>
-        <p>My childhood curiosity led to my educational focus in engineering and technology, and over the years I have gained experience in building responsive web applications with JavaScript/react.js. <br/>
-        My programming experience has been both challenging and fun working on programming projects with the added thrill of being able to communicate directly with my computer.</p>
-        <p>PS: When I'm not coding, I love to watch movie series.</p>
+        <p>I'm a passionate Frontend web developer with over one year of continuous self-development and hands-on experience in coding websites and web applications using modern web technologies.</p>
+        <p>I have a niche for design and design concepts so I tend to deliver pixel perfect and fully responsive implementation, leaving my users with the best experience ever.</p>
+        <p>I love learning, I love challenging myself and I'm easily inspired and more than willing to follow my fascinations to wherever they take me to.</p>
+        <p> My programming experience has been both challenging and fun working on programming projects with the added thrill of being able to solve complex problems using web technologies. You can find me watching movie series when I'm not coding</p>
+
         <code className='code'>ROTATE SCREEN TO SEE MY PICTURE :) </code>
       </div>
       <div className='me'>
@@ -67,9 +71,16 @@ export const MyWork = () => {
     {
       'image-src': FaceRecognition,
       'header-text': 'FACE RECOGNITION APP',
-      'project-description': 'An app that detects the presence and location of human faces with a bound-ing box, and increases in count by the number of face a user has registered.Front-end built with React.js and Back-end built with Node.js.',
+      'project-description': 'An app that detects the presence and location of human faces with a bound-ing box, and increases in count by the number of face a user has registered.Front-end built with React.js and Back-end built with Node.js and Postgresql.',
       'live-link': 'https://frontend-smartbrain-project.herokuapp.com/',
       'github-link': 'https://github.com/Aquilaafuadajo/frontend-smartbrain-project'
+    },
+    {
+      'image-src': Algorithmist,
+      'header-text': 'ALGORITHMIST LANDING PAGE',
+      'project-description': "This is a landing page for a coming soon application that captures and store emails to a real-time database. Built with php and mysql",
+      'live-link': 'https://algorithmist-landing.herokuapp.com',
+      'github-link': 'https://github.com/Aquilaafuadajo/algorithmist'
     },
     {
       'image-src': Quiz,
@@ -79,18 +90,32 @@ export const MyWork = () => {
       'github-link': 'https://github.com/Aquilaafuadajo/javascript-quiz-game'
     },
     {
+      'image-src': Alpha,
+      'header-text': 'ALPHA-LENS PHOTOGRAPHY',
+      'project-description': "Alpha-lens is a photographer's portfolio website built with html, css and bootstrap 4",
+      'live-link': 'https://alphalens.netlify.app/',
+      'github-link': 'https://github.com/Aquilaafuadajo/Photography-template'
+    },
+    {
+      'image-src': Danadams,
+      'header-text': 'DANADAMS',
+      'project-description': "Danadams is a pixel perfect and fully responsive designer's portfolio website built with html, css and bootstrap 4",
+      'live-link': 'https://danadams.netlify.app/',
+      'github-link': 'https://github.com/Aquilaafuadajo/designer-portfolio'
+    },
+    {
+      'image-src': Sleek,
+      'header-text': 'SLEEK',
+      'project-description': "Sleek is a single page fashion website built with html, css, and bootstrap 4",
+      'live-link': 'https://fashion-template.netlify.app/',
+      'github-link': 'https://github.com/Aquilaafuadajo/Team-Avenger-Envato-Marketing/tree/design-4'
+    },
+    {
       'image-src': Portfolio,
       'header-text': 'MY PERSONAL PORTFOLIO',
       'project-description': 'As you can see, this is my personal portfolio built with react and pure sass/css',
       'live-link': 'https://devquils.herokuapp.com',
       'github-link': 'https://github.com/Aquilaafuadajo/my-portfolio'
-    },
-    {
-      'image-src': Sleek,
-      'header-text': 'SLEEK',
-      'project-description': "Sleek is a single page fashion template built with html, css, and bootstrap 4",
-      'live-link': 'https://fashion-template.netlify.app/',
-      'github-link': 'https://github.com/Aquilaafuadajo/Team-Avenger-Envato-Marketing/tree/design-4'
     },
     {
       'image-src': Piggyvest,
@@ -109,14 +134,14 @@ export const MyWork = () => {
     {
       'image-src': Food,
       'header-text': 'ZURI',
-      'project-description': "ZURI is an open source multi-page template built with javascript, html, css and bootstrap 4. This page is the contribution I made to the project",
+      'project-description': "ZURI is an open source multi-page website built with javascript, html, css and bootstrap 4. This page is the contribution I made to the project",
       'live-link': 'https://foodgallery.netlify.app/',
       'github-link': 'https://github.com/hngi/Team-Avengers-Envato-Food-1'
     },
     {
       'image-src': Abu,
       'header-text': 'ABU HOTELS',
-      'project-description': "ABU is a hotel facilities page template built with javascript, html, css and bootstrap 4. This project is a contribution to an open source project",
+      'project-description': "ABU is a hotel facilities page website built with javascript, html, css and bootstrap 4. This project is a contribution to an open source project",
       'live-link': 'https://aquils-facilities-page.netlify.app/',
       'github-link': 'https://github.com/Aquilaafuadajo/avengers-stage-2-frontend-thor-2/tree/navbar-facilities'
     },
@@ -141,7 +166,7 @@ export const MyWork = () => {
             <img src={project['image-src']} alt=''/>
             <p><span style={{fontWeight: 'bold'}}>Description:</span> {project['project-description']} <br/>  
             <a target='_blank noopener noreferrer' href={project['live-link']}>View live</a> <br/>
-            <a target='_blank noopener noreferrer' href={project['live-link']}>View on github</a>
+            <a target='_blank noopener noreferrer' href={project['github-link']}>View on github</a>
             </p>
           </div>
         </details>
@@ -156,7 +181,7 @@ export const MySkill = () => {
         <div className='skill-description'>
           <h1>MY SKILL</h1>
           <p>My area of my specialization is frontend development (client side of the web).</p>
-          <p>HTML, CSS, SASS, Bootstrap, Javascript, building small and medium web apps with React/Redux, animations, and coding interactive layouts.</p>
+          <p>HTML, CSS, SASS, Bootstrap, Javascript, building small and medium web apps with React/Redux, animation libraries, and coding interactive layouts.</p>
           <p>I have a strong understanding of git/github workflow</p>
           <p>I also have backend experience using Node.js, PostgreSQL,  NOSQL</p>
           <p>View my <a target='_blank noopener noreferrer' style={{textDecoration: 'underline'}} href='https://drive.google.com/open?id=10Hgt_qm5Pew_ICMHEcZL8vSMdxVYC7pT'>resume</a> for more details on my experience</p>
