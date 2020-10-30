@@ -34,7 +34,7 @@ export const About = () => {
         <code className='code'>ROTATE SCREEN TO SEE MY PICTURE :) </code>
       </div>
       <div className='me'>
-        <img src={MyPicture} alt='Me' />
+        <img src='https://res.cloudinary.com/afuadajo/image/upload/c_scale,h_4032,w_3024/v1604078081/F1321411-5B64-4736-BF1A-B2FA2E7FBCA4L0001_ryjpyx.jpg' alt='Me' />
       </div>
     </div>
       
