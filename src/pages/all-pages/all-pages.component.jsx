@@ -47,7 +47,7 @@ export const Contact = () => {
           <h1>CONTACT</h1>
           <h3>Woah! Let's do business</h3>
           <p>Talk to me over the mail:</p><a target='_blank noopener noreferrer' href='mailto:aquilaafuadajo@gmail.com'><button>mail me</button></a><br/>
-          <a target='_blank noopener noreferrer' href='https://drive.google.com/file/d/1kbA0izUJyHli5WqU9Bk6M5GaaywRRDMV/view?usp=sharing'><button>my resume</button></a>
+          <a target='_blank noopener noreferrer' href='https://drive.google.com/file/d/1BkSd80hki2BzysrzVVvPVPaxjn1iqmpj/view?usp=sharing'><button>my resume</button></a>
         </div>
         <div className='social'>
           <a target='_blank noopener noreferrer' href='https://twitter.com/_developing_dev'><Twitter className='svg'/></a>
@@ -183,7 +183,7 @@ export const MySkill = () => {
           <p>HTML, CSS, SASS, Bootstrap, Javascript, building small and medium web apps with React/Redux, animation libraries, and coding interactive layouts.</p>
           <p>I have a strong understanding of git/github workflow</p>
           <p>I also have backend experience using Node.js, PostgreSQL,  NOSQL</p>
-          <p>View my <a target='_blank noopener noreferrer' style={{textDecoration: 'underline'}} href='https://drive.google.com/file/d/1kbA0izUJyHli5WqU9Bk6M5GaaywRRDMV/view?usp=sharing'>resume</a> for more details on my experience</p>
+          <p>View my <a target='_blank noopener noreferrer' style={{textDecoration: 'underline'}} href='https://drive.google.com/file/d/1BkSd80hki2BzysrzVVvPVPaxjn1iqmpj/view?usp=sharing'>resume</a> for more details on my experience</p>
         </div>
       </div>
     );
