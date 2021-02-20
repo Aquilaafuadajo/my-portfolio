@@ -25,7 +25,7 @@ export const About = () => {
     <div className='about'>
       <div className='write-up'>
         <h1>About Me</h1>
-        <p>I'm a passionate Frontend web developer with over one year of continuous self-development and hands-on experience in coding websites and web applications using modern web technologies.</p>
+        <p>I'm a passionate Frontend web developer with over two years of continuous self-development and hands-on experience in coding websites and web applications using modern web technologies.</p>
         <p>I have a niche for design and design concepts so I tend to deliver pixel perfect and fully responsive implementation, leaving my users with the best experience ever.</p>
         <p>I love learning, I love challenging myself and I'm easily inspired and more than willing to follow my fascinations to wherever they take me to.</p>
         <p> My programming experience has been both challenging and fun working on programming projects with the added thrill of being able to solve complex problems using web technologies. You can find me watching movie series when I'm not coding</p>
