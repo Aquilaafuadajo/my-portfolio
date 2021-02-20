@@ -2,7 +2,6 @@ import React from 'react';
 
 import './all-pages.styles.scss';
 
-import MyPicture from '../../assets/aquila.jpg';
 import Portfolio from '../../assets/portfolio.jpeg';
 import ArticleViewer from '../../assets/article-viewer.jpeg';
 import Ecommerce from '../../assets/ecommerce.jpeg';
