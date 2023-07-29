@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link className='links' to='/contact'><Contact className='svg'/><span>CONTACT</span></Link>
         </div>
         <div className='social'>
-          <a target='_blank noopener noreferrer' href='https://twitter.com/_developing_dev'><Twitter className='svg'/></a>
+          <a target='_blank noopener noreferrer' href='https://twitter.com/_aquils'><Twitter className='svg'/></a>
           <a target='_blank noopener noreferrer' href='https://www.linkedin.com/in/emmanuel-afuadajo/'><Linkedin className='svg'/></a>
           <a target='_blank noopener noreferrer' href='https://github.com/aquilaafuadajo/'><Github className='svg'/></a>
         </div>
